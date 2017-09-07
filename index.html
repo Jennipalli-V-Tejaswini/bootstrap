@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title></title>
+		<meta name="description" content="">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+		<script type="text/javascript">
+         <!--
+            // Form validation code will come here.
+            function validate()
+      {
+      
+         if( document.myForm.Fullname.value == "" )
+         {
+            alert( "Please provide your name!" );
+            document.myForm.Fullname.focus() ;
+            return false;
+         }
+         
+         if( document.myForm.EmailID.value == "" )
+         {
+            alert( "Please provide your Email!" );
+            document.myForm.EMailID.focus() ;
+            return false;
+         }
+
+         if( document.myForm.PhoneNumber.value == "" )
+         {
+            alert( "Please provide your Phone Number!" );
+            document.myForm.PhoneNumber.focus() ;
+            return false;
+         }
+
+         var phoneno = /^\d{10}$/;  
+       if(document.myForm.PhoneNumber.value.match(phoneno))  
+  {  
+      return true;  
+  }  
+  else  
+  {  
+     alert("Not a valid Phone Number");  
+     return false;  
+  } 
+         
+         return( true );
+      }
+   //-->
+      </script>
+		
+	</head>
+	<body>
+	
+		<div class="container" id="main">
+
+			<div class="navbar navbar-fixed-top">
+			<div class="container" id="navfont">
+		
+		<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+		<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+	
+		<a class="navbar-brand pull-left" href="/"><img src="images/index.png" alt="Your Logo" height="50px" width="120px"></a>
+		
+		<div class="nav-collapse collapse navbar-responsive-collapse">
+			<ul class="nav navbar-nav">
+				<li>
+					<a href="#">CAUSE</a>
+				</li>
+
+				<li >
+					<a href="#">ABOUT</a>
+				</li>
+
+
+				<li>
+					<a href="#">DONATE</a>
+				</li>
+
+				<li>
+					<a href="#">JOIN</a>
+				</li>
+				
+			</ul>
+			
+			<form class="navbar-form pull-right">
+				<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+				<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+			</form><!-- end navbar-form -->
+			
+			
+		</div><!-- end nav-collapse -->
+	
+	</div><!-- end container -->
+				
+			</div><!-- end navbar -->
+			
+			
+		<div id="imagecarousel" class="carousel slide" data-interval="3000" data-ride="carousel" style="margin-top: 55px;">
+                    
+                    <ol class="carousel-indicators">
+                        <li data-target="#imagecarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#imagecarousel" data-slide-to="1" class="active"></li>
+                        <li data-target="#imagecarousel" data-slide-to="2" class="active"></li>
+                        
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img id="ima" src="images/hero2.jpg" class=img-responsive/>
+                            <div class="carousel-caption">
+                               
+                                <h4>4250 Volunteers</h4>
+                               
+                             </div>
+                        </div>
+
+                        <div class="item">
+                            <img id="ima" src="images/hero3.jpg" class=img-responsive/>
+                            <div class="carousel-caption">
+                                <h4>3460 Children impacted annually</h4>                            
+                                 </div>
+                        </div>
+
+                        <div class="item">
+                            <img id="ima" src="images/hero01.jpg" class=img-responsive/>
+                            <div class="carousel-caption">
+                                <h4>67 Shelters</h4>
+                             </div>
+                        </div>
+                        
+                    </div>
+                    
+	<a class="left carousel-control" data-slide="prev" href="#imagecarousel"><span class="icon-prev"></span></a>
+	<a class="right carousel-control" data-slide="next" href="#imagecarousel"><span class="icon-next"></span></a>
+
+			
+			</div>
+			
+			<div class="row" id="bigCallout">
+
+			</div><!-- end row -->
+			
+			
+			<div class="row" id="featuresHeading">
+			<div class="col-12">
+		<h2>PROGRAMMES AT MAD</h2>
+		<p class="lead">We support the children in the shelter homes with our three verticals.</p>
+	</div><!-- end col-12 -->
+</div><!-- end featuresHeading -->
+
+
+<div class="row" id="features">
+	<div class="col-sm-4 feature">
+		<div class="panel">
+			<div class="panel-heading">
+				<h3 class="panel-title">Ed Support</h3>
+			</div><!-- end panel-heading -->
+			<img src="images/propel.png" alt="pic" class="img-circle">
+			
+			<p>Provides role-models for children to aspire to by putting high-potential young people in touch with them. These youngsters provides after school support for Math, Science and English.</p>
+			
+			<a href="#" target="_blank" class="btn btn-danger btn-block">Read More..</a>
+		</div><!-- end panel -->
+	</div>
+
+	<div class="col-sm-4 feature">
+		<div class="panel">
+			<div class="panel-heading">
+				<h3 class="panel-title">Dream Camps</h3>
+			</div><!-- end panel-heading -->
+			<img src="images/03.png" alt="pic" class="img-circle">
+			
+			<p>Dream Camps are a 2-3 day experiential camp that primarily focuse on helping children build and connect with their dreams through a process of self growth and transformation.</p>
+			
+			<a href="#" target="_blank" class="btn btn-danger btn-block">Read More..</a>
+		</div><!-- end panel -->
+	</div><!-- end feature -->
+<!-- end feature -->
+	
+	<div class="col-sm-4 feature">
+		<div class="panel">
+			<div class="panel-heading">
+				<h3 class="panel-title">Transition Readiness</h3>
+			</div><!-- end panel-heading -->
+			<img src="images/propel.png" alt="pic" class="img-circle">
+			
+			<p>Transition Readiness enables children to build their career paths and is aimed at those who are poised to pass out from shelter homes. By pairing them with a spirited volunteer, called a wingman. </p>
+			
+			<a href="h#" target="_blank" class="btn btn-danger btn-block">Read More..</a>
+		</div><!-- end panel -->
+	</div><!-- end feature -->
+	
+
+			</div><!-- end row -->
+
+<div id="yCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+		<ol class="carousel-indicators">
+		<li class="active" data-slide-to="0" data-target="#yCarousel"></li>
+		<li data-slide-to="1" data-target="#yCarousel"></li>
+		<li data-slide-to="2" data-target="#yCarousel"></li>
+		<li data-slide-to="3" data-target="#yCarousel"></li>
+		<li data-slide-to="4" data-target="#yCarousel"></li>
+		<li data-slide-to="5" data-target="#yCarousel"></li>
+		<li data-slide-to="6" data-target="#yCarousel"></li>
+		<li data-slide-to="7" data-target="#yCarousel"></li>
+	</ol>
+
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner">
+	                       <div class="item active">
+                            <img id="abc" src="images/slide1.png" class=img-responsive/>
+                            </div>
+
+                            <div class="item">
+                            <img id="abc" src="images/slide2.png" class=img-responsive/>
+                            </div>
+
+                            <div class="item">
+                            <img id="abc" src="images/slide3.png" class=img-responsive/>
+                            </div>
+
+                            <div class="item">
+                            <img id="abc" src="images/slide4.png" class=img-responsive/>
+                            </div>
+
+                            <div class="item">
+                            <img id="abc" src="images/slide5.png" class=img-responsive/>
+                            </div>
+
+                            <div class="item">
+                            <img id="abc" src="images/slide6.png" class=img-responsive/>
+                            </div>
+
+                            <div class="item">
+                            <img id="abc" src="images/slide7.png" class=img-responsive/>
+                            </div>
+
+                            <div class="item">
+                            <img id="abc" src="images/slide8.png" class=img-responsive/>
+                            </div>
+		
+	</div><!-- carousel-inner -->
+	
+	<!-- Controls -->
+	<a class="left carousel-control" data-slide="prev" href="#yCarousel"><span class="icon-prev"></span></a>
+	<a class="right carousel-control" data-slide="next" href="#yCarousel"><span class="icon-next"></span></a>
+
+			
+			</div>
+	<article>
+	<div class="row" id="Heading">
+			<div class="col-12">
+			<ul class="nav navbar-nav">
+				<li>
+					<a href="#" style="color: blue">THE TEAM</a>
+				</li>
+
+				<li >
+					<a href="#" style="color: blue">AWARDS</a>
+				</li>
+
+				<li>
+					<a href="#" style="color: blue">FINANCIALS</a>
+				</li>
+
+				<li>
+					<a href="#" style="color: blue">BLOG</a>
+				</li>
+			</ul>
+        </div>
+        <p>Make A Difference (MAD) is a youth driven, non-profit organisation working to ensure equitable outcomes for children in orphanages and street shelters. Registered as a non-profit in 2006, Make A Difference reaches out to over 3,460 children in 67 shelters across 23 cities in India, through a highly efficient 4,250 strong volunteer network. Volunteers commit a year and spend between 2 and 10 hours every week mentoring, teaching and interacting with children in order to ensure that they get the support and care they need during childhood.</p>
+
+		<p><strong>Vision</strong><br>
+
+		Our vision is that even the most vulnerable children in shelters are able to realize equitable outcomes. We understand the most vulnerable as children who either do not have a family to support them, or children whose families are unable to provide a safe space for them to grow up in. Many of these children end up in shelters,which struggle to address more than infrastructure and basic needs, so Make A Difference focuses on providing them with additional care and support systems to ensure that they flourish.</p>
+				
+		<p><strong>Mission</strong><br>Our mission is to improve quality of life and outcomes for children in shelters and to ensure that every child is able to fulfill their potential irrespective of his or her circumstances.<br>
+
+		Our minimum target is to ensure that these children are able to live a life free from exploitation and are capable of managing emotional and financial life crises. However our real goal is for children we work with to end up on par with a stable middle class demographic that allows us to break the cycle of poverty and abandonment.</p>
+	</div>
+	</article>
+
+	     <div class="col-12" id="charan">
+	            <div class="col-sm-2"></div>
+				<div class="col-sm-8  "  style="margin-top: 40px;"">
+				<div class="panel panel-default" id="vavila">
+           <div class="panel-heading" id="line">
+               <h4 class="panel-title">
+                   <a  data-toggle="collapse" data-parent="#accordion" href="#collapseSix">1. How do I volunteer with MAD?</a>
+               </h4>
+           </div>
+           <div id="collapseSix" class="panel-collapse collapse ">
+               <div class="panel-body">
+                   Register on this website. As and when we have our next recruitment drive in your city, we'll be sure to inform you, either through email or by phone!
+               </div>
+           </div>
+       </div>
+				</div></div>
+
+		<div class="col-12" id="charan">
+        <div class="col-sm-2"></div>
+				<div class="col-sm-8 ">
+				<div class="panel panel-default" id="vavila">
+           <div class="panel-heading" id="line">
+               <h4 class="panel-title">
+                   <a  data-toggle="collapse" data-parent="#accordion" href="#collapseSix2">2. There is no MAD in my city! How do I start a new chapter?</a>
+               </h4>
+           </div>
+           <div id="collapseSix2" class="panel-collapse collapse ">
+               <div class="panel-body">
+                   
+
+We've currently put a hold on our geographical expansions as we wish to stabilize operations and implement various more processes within our existing chapters!
+               </div>
+           </div>
+       </div>
+				</div></div>
+
+		<div class="col-12" id="charan">
+		<div class="col-sm-2"></div>
+
+				<div class="col-sm-8">
+				<div class="panel panel-default" id="vavila">
+           <div class="panel-heading" id="line">
+               <h4 class="panel-title">
+                   <a  data-toggle="collapse" data-parent="#accordion" href="#collapseSix3" > 3. I applied a long time back, but you haven't called me!</a>
+               </h4>
+           </div>
+           <div id="collapseSix3" class="panel-collapse collapse ">
+               <div class="panel-body">
+                   
+
+ Make A Difference does not have round-the-year recruitment drives. We only recruit once at the beginning of the academic year! If your email ID and phone number are already in the database, somebody from your city will be getting in touch with you as and when a recruitment drive comes around to let you know about the recruitment drive.<br>
+
+  
+               </div>
+           </div>
+       </div>
+			    </div></div>
+        <div class="col-12" id="charan">
+		<div class="col-sm-2"></div>
+
+			    <div class="col-sm-8">
+			    <div class="panel panel-default" id="vavila">
+           <div class="panel-heading" id="line">
+               <h4 class="panel-title">
+                   <a  data-toggle="collapse" data-parent="#accordion" href="#collapseSix1">4. Why does volunteering as a teacher with MAD require a one-year commitment?</a>
+               </h4>
+           </div>
+           <div id="collapseSix1" class="panel-collapse collapse ">
+               <div class="panel-body">
+                   
+
+Unfortunately, Make A Difference is not a short-term engagement. MAD teachers are expected to commit for the duration of one year.
+
+Do register on our website as and when you have settled down. We'd love to have you around!
+
+               </div>
+           </div>
+       </div>
+			    </div></div>
+
+		</div><!-- end tab-pane -->
+</header><!-- end tabbable -->
+
+
+			<div class="row" id="features">
+
+			</div><!-- end row -->
+			
+			
+			<div class="row" id="moreInfo">
+
+			</div><!-- end row -->
+			
+			
+			<div class="row" id="moreCourses">
+				
+			</div><!-- end row -->
+		
+	    </div><!-- end container -->
+
+
+
+<footer>
+<div class="container">
+		<div class="row">
+		<div class="col-12">
+			<div class="col-sm-4">
+				<h6 style="font-family: Helvetica">SEND US A MESSAGE</h6>
+				<form action="#" method="get" name="myForm" onsubmit="return(validate());">
+				<ul style="list-style: none; margin: 0px;padding: 0px;width: 100%;margin-bottom: 5px;">
+					
+					<li><input type="text" name="Fullname" size="30" placeholder="NAME" style="width:100%;margin-bottom: 8px;"><br></li>
+                    <li><input type="text" name="EmailID" size="30" placeholder="EMAIL ID" style="width:100%;margin-bottom: 8px;"><br></li>
+                    <li><input type="text" name="PhoneNumber" size="30" placeholder="PHONE NUMBER" style="width:100%;margin-bottom: 8px;"><br></li>
+                    <li><textarea name="message" width="333px" placeholder="YOUR MESSAGE" style="width:100%;margin-bottom: 8px;height: 100px"></textarea><br></li>
+                    <li><input type="submit" name="action" class="button" value="SEND MESSAGE" style="width:100%;"><br></li>
+				</ul> <br><br><br><br><br><br><br><br><br><br><br><br>
+				</form>
+			</div>
+
+			<div class="col-sm-4">
+				<h6>GET IN TOUCH</h6>
+				<p>BANGALORE OFFICE</p>
+				<p>#16 C, 1st B Main, 14th C Cross, Sector 6, HSR Layout,Bangalore, India - 560102</p>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8706591563555!2d77.6239657499417!3d12.916033519546176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae14f3c6c8d7b9%3A0x81d21dbe53dce304!2sMake+A+Difference!5e0!3m2!1sen!2sin!4v1504677939757" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+			</div><!-- end col-sm-2 -->
+			
+			<div class="col-sm-4">
+				<h6 style="padding: 10px;">SOCIAL MEDIA</h6>
+				<ul style="list-style: none; margin: 0px;padding: 0px;width: 100%;padding-bottom: 5px; text-align: center;">
+					<li id="pardhu" style="color:blue"><a href="#">Join us on Facebook</a></li>
+					<li id="pardhu"><a href="#">Follow us on Twitter</a></li>
+					<li id="pardhu"><a href="#">Subscribe us on Youtube</a></li>
+					<li id="pardhu"><a href="#">Follow us on Instagram</a></li>
+				
+				</ul>
+			</div><!-- end col-sm-2 -->
+			
+			</div>
+			</div>
+			</div>
+			</footer>
+	<section>
+	<div class="container">
+				<h6><span class="glyphicon glyphicon-heart"></span> 2017| Make A Difference</h6>
+				<h6>Privacy Policy | 80G Certificate | FCRA Registration</h6>
+			</div><!-- end col-sm-2 -->
+    </section>
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+	</body>
+</html>
+

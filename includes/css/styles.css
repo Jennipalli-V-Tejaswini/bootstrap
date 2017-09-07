@@ -1,0 +1,230 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#Effect{
+   background-color:biege;
+   align-self: center;
+}
+#features {
+   text-align: center;
+   padding-left: 40px;
+}
+
+#features img {
+   margin: 0 0 20px;
+}
+
+.row{
+   margin:0px;
+   padding-left:20px;
+   padding-right: 20px;
+   background-color: beige;
+
+}
+
+
+.lead{
+   font-size:20px;
+}
+
+.navbar-nav>li>a{
+   color: white;
+}
+
+.panel-title{
+   color:blue;
+}
+
+article{
+   background-color: aqua;
+}
+
+article .row{
+   background-color: aqua;
+
+}
+
+article .row p{
+   margin-top: 30px;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+.embed-responsive-item{
+   margin-right: 0;
+   padding-right: 0;
+   margin-bottom: 0;
+}
+
+#charan{
+   background-color: #4CA741;
+}
+
+#vavila{
+text-align: center;
+color:black;
+font-size: 1.2em;
+background:#4CA741;
+font-weight: bold;
+margin-bottom: 20px;
+border: 0;
+}
+
+#line{
+   background-color: aqua;
+}
+ 
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   .navbar{
+    background-color: black;
+   }
+
+   .nav {
+      font-weight: bold;
+      color:;
+   }
+
+   #searchInput {
+   width: 250px;
+}
+
+.navbar-brand {
+   padding: 0px 15px;
+}
+   
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#imagecarousal {
+   height: 375px;
+}
+
+
+.carousel-caption h4 {
+   color:black;
+}
+
+#abc{
+   padding-left: auto;
+}
+
+#yCarousel .item {background-color:#75357A;}
+
+#slide4 {
+   background: url('../../images/slide1.png') top center no-repeat;
+}
+
+#slide5 {
+   background: url('../../images/slide2.png') top center no-repeat;
+}
+
+#slide6 {
+   background: url('../../images/slide3.png') top center no-repeat;
+}
+
+#slide7 {
+   background: url('../../images/slide4.png') top center no-repeat;
+}
+
+#slide8 {
+   background: url('../../images/slide5.png') top center no-repeat;
+}
+
+#slide9 {
+   background: url('../../images/slide6.png') top center no-repeat;
+}
+
+#slide10 {
+   background: url('../../images/slide7.png') top center no-repeat;
+}
+
+#slide11 {
+   background: url('../../images/slide8.png') top center no-repeat;
+}
+
+/* --------------------------------------
+   Footer
+   -------------------------------------- */
+   footer{
+      margin-top: 0;
+      background-color:#ED1849;
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+   }
+
+
+footer .row{
+      background-color: #ED1849;
+      padding-top: 40px;
+   }
+
+footer .row h6{
+   padding: 10px;
+   background-color: yellow;
+   text-align: center;
+   font-size: 22px;
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+footer .row ul{
+   float: left;
+   width:333px;
+   margin-bottom: 5px;
+}
+
+#pardhu{color: blue;display: block;padding: 10px;background-color: white; margin-bottom: 8px;}
+
+#Form{
+   list-style: none; 
+   margin: 0px;
+   padding: 0px; 
+   width: 100%;
+   margin-bottom: 5px;
+}
+
+section{
+   background-color:aqua;
+   text-align:center;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
